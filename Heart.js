@@ -747,7 +747,7 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- 𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞 Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
@@ -768,9 +768,9 @@ case 'tag': case 'tagall': case 'all':{
                 
             
             case "sc": case "script": case"repo": {
-   const scritxt = `*🚀𝑴𝒂𝒓𝒊𝒂-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
-  *🌟Creator:* 𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚\n
-  *🌟 Repo:* https://github.com/AYUSH-PANDEY023/Maria-Md \n
+   const scritxt = `*🚀𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
+  *🌟Creator:* ⁖℘༒∂ลяк เи†эи† ☠︎︎𓀚\n
+  *🌟 Repo:* https://github.com/zandat3/Maria-Md \n
   *🌟 pair:*https://replit.com/@theofficialbhar/AYUSH-PAIRING
   *🌟 Tutorial:*https://youtu.be/wqc0LtA0abo?si=BbZ4iml94hX6WcsS
   *🌟 Website:*https://ayush-botz.vercel.app/
@@ -1205,13 +1205,13 @@ case 'chatgpt': case 'gpt':{
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *Maria-Md*📍\nA whatsapp bot created by: Ayush \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞-Md*📍\nA whatsapp bot created by: ⁖℘༒∂ลяк เи†эи† ☠︎︎𓀚 \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
 
         Maria.sendMessage(m.chat, { video: { url: `https://c.tenor.com/4TLYvKWI2mgAAAPo/nakano-yotsuba-smile.mp4` }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
       case "support":
       
-        let tex = `📍My Developer's Group📍\n\n*🎇 𝐌𝐚𝐫𝐢𝐚 support group:🎇*\n\n*https://chat.whatsapp.com/Jllsl2OaQNoBjepxzuVsZM*`
+        let tex = `📍My Developer's Group📍\n\n*🎇 𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞 support group:🎇*\n\n*https://chat.whatsapp.com/Jllsl2OaQNoBjepxzuVsZM*`
 
         await Maria.sendMessage(m.sender, { text: `${tex}` },);
 
@@ -1221,13 +1221,13 @@ case 'chatgpt': case 'gpt':{
       case "info":
             
       
-        let ifx = `🌟『𝕄𝕒𝕣𝕚𝕒-𝕄𝕕 』🌟
-*🌟Description:* A WhatsApp Bot With Rich  features based on Maria
+        let ifx = `🌟『𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞-𝕄𝕕 』🌟
+*🌟Description:* A WhatsApp Bot With Rich  features based on 𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.2.0
-*👤Creator:*  𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚
+*👤Creator:*  ⁖℘༒∂ลяк เи†эи† ☠︎︎𓀚
 *🎐supportgc:* ${global.support}\n
-*Powered by Ayush*`
+*Powered by ⁖℘༒∂ลяк เи†эи† ☠︎︎𓀚*`
 Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/VmwZnGeD0oEAAAPo/maria-naruse-shinmai-maou-no-testament.mp4` }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
 
@@ -1509,104 +1509,104 @@ case 'truth':
                            break
                            
  case 'menu': case 'help': case 'h':
-const txt = `Konichiwa *${pushname}* Senpai  ${Ayushytimewisher},
+const txt = `Hi *${pushname}* Senpai  ${Ayushytimewisher},
 
-I am *Maria-Md*, a bot developed by *Ayush*.
+I am *𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞-Md*, a bot developed by *⁖℘༒∂ลяк เи†эи† ☠︎︎𓀚*.
 
 🎀 My prefix is:  ${prefix}
 
 Here's the list of my Commands.
 
 
-┌──⊰ _*🧧GENERAL🧧*_
-│⊳ 🌿 ${prefix}hi
-│⊳ 🌿 ${prefix}info
-│⊳ 🌿 ${prefix}support
-│⊳ 🌿 ${prefix}rules
-│⊳ 🌿 ${prefix}help
-│⊳ 🌿 ${prefix}runtime
-│⊳ 🌿 ${prefix}script
+┌──⊰ _*✧GENERAL✧*_
+│⊳ ✧ ${prefix}hi
+│⊳ ✧ ${prefix}info
+│⊳ ✧ ${prefix}support
+│⊳ ✧ ${prefix}rules
+│⊳ ✧ ${prefix}help
+│⊳ ✧ ${prefix}runtime
+│⊳ ✧ ${prefix}script
 └──────────⊰
 
-┌──⊰ _*🧩OWNER🧩*_
-│⊳ ♠️ ${prefix}session
-│⊳ ♠️ ${prefix}join
-│⊳ ♠️ ${prefix}shutdown
-│⊳ ♠️ ${prefix}restart
-│⊳ ♠️ ${prefix}autoread *[option]*
-│⊳ ♠️ ${prefix}autotyping *[option]*
-│⊳ ♠️ ${prefix}autorecording *[option]*
-│⊳ ♠️ ${prefix}autorecordtyp *[option]*
-│⊳ ♠️ ${prefix}autobio *[option]*
-│⊳ ♠️ ${prefix}autoswview *[option]*
-│⊳ ♠️ ${prefix}mode *[option]*
-│⊳ ♠️ ${prefix}block
-│⊳ ♠️ ${prefix}unblock
-│⊳ ♠️ ${prefix}backup
-│⊳ ♠️ ${prefix}getcase
-│⊳ ♠️ ${prefix}addowner
-│⊳ ♠️ ${prefix}delowner
+┌──⊰ _*𒁂⃝ᰲ OWNER𒁂⃝ᰲ *_
+│⊳ 𒁂⃝ᰲ  ${prefix}session
+│⊳ 𒁂⃝ᰲ  ${prefix}join
+│⊳ 𒁂⃝ᰲ  ${prefix}shutdown
+│⊳ 𒁂⃝ᰲ  ${prefix}restart
+│⊳ 𒁂⃝ᰲ  ${prefix}autoread *[option]*
+│⊳ 𒁂⃝ᰲ  ${prefix}autotyping *[option]*
+│⊳ 𒁂⃝ᰲ  ${prefix}autorecording *[option]*
+│⊳ 𒁂⃝ᰲ  ${prefix}autorecordtyp *[option]*
+│⊳ 𒁂⃝ᰲ  ${prefix}autobio *[option]*
+│⊳ 𒁂⃝ᰲ  ${prefix}autoswview *[option]*
+│⊳ 𒁂⃝ᰲ  ${prefix}mode *[option]*
+│⊳ 𒁂⃝ᰲ  ${prefix}block
+│⊳ 𒁂⃝ᰲ  ${prefix}unblock
+│⊳ 𒁂⃝ᰲ  ${prefix}backup
+│⊳ 𒁂⃝ᰲ  ${prefix}getcase
+│⊳ 𒁂⃝ᰲ  ${prefix}addowner
+│⊳ 𒁂⃝ᰲ  ${prefix}delowner
 └──────────⊰
 
-┌──⊰ _*👮🏻‍♂️GROUP👮🏻‍♂️*_
-│⊳ 🍁 ${prefix}Antilink
-│⊳ 🍁 ${prefix}closetime
-│⊳ 🍁 ${prefix}opentime
-│⊳ 🍁 ${prefix}kick
-│⊳ 🍁 ${prefix}add
-│⊳ 🍁 ${prefix}promote
-│⊳ 🍁 ${prefix}demote
-│⊳ 🍁 ${prefix}setdesc
-│⊳ 🍁 ${prefix}setppgc
-│⊳ 🍁 ${prefix}tagall
-│⊳ 🍁 ${prefix}hidetag
-│⊳ 🍁 ${prefix}totag
-│⊳ 🍁 ${prefix}group *[option]*
-│⊳ 🍁 ${prefix}editinfo
-│⊳ 🍁 ${prefix}linkgc
-│⊳ 🍁 ${prefix}revoke
-│⊳ 🍁 ${prefix}listonline
+┌──⊰ _*𓀚GROUP𓀚*_
+│⊳ 𓀚 ${prefix}Antilink
+│⊳ 𓀚 ${prefix}closetime
+│⊳ 𓀚 ${prefix}opentime
+│⊳ 𓀚 ${prefix}kick
+│⊳ 𓀚 ${prefix}add
+│⊳ 𓀚 ${prefix}promote
+│⊳ 𓀚 ${prefix}demote
+│⊳ 𓀚 ${prefix}setdesc
+│⊳ 𓀚 ${prefix}setppgc
+│⊳ 𓀚 ${prefix}tagall
+│⊳ 𓀚 ${prefix}hidetag
+│⊳ 𓀚 ${prefix}totag
+│⊳ 𓀚 ${prefix}group *[option]*
+│⊳ 𓀚 ${prefix}editinfo
+│⊳ 𓀚 ${prefix}linkgc
+│⊳ 𓀚 ${prefix}revoke
+│⊳ 𓀚 ${prefix}listonline
 └──────────⊰
 
-┌──⊰ _*🎉FUN🎉*_
-│⊳ 🎟️ ${prefix}truth
-│⊳ 🎟️ ${prefix}dare
-│⊳🎟️ ${prefix}couple 
-│⊳🎟️ ${prefix}uglycheck
-│⊳🎟️ ${prefix}lovelycheck
-│⊳🎟️ ${prefix}prettycheck
-│⊳🎟️ ${prefix}hornycheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}lesbicheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}cutecheck
-│⊳🎟️ ${prefix}gaycheck
-│⊳🎟️ ${prefix}greatcheck
-│⊳🎟️ ${prefix}awesomecheck
+┌──⊰ _*☠︎︎FUN☠︎︎*_
+│⊳ ☠︎︎ ${prefix}truth
+│⊳ ☠︎︎ ${prefix}dare
+│⊳ ☠︎︎ ${prefix}couple 
+│⊳☠︎︎ ${prefix}uglycheck
+│⊳☠︎︎ ${prefix}lovelycheck
+│⊳☠︎︎ ${prefix}prettycheck
+│⊳☠︎︎ ${prefix}hornycheck
+│⊳☠︎︎ ${prefix}lesbiancheck
+│⊳☠︎︎ ${prefix}lesbicheck
+│⊳☠︎︎ ${prefix}lesbiancheck
+│⊳☠︎︎ ${prefix}cutecheck
+│⊳☠︎︎ ${prefix}gaycheck
+│⊳☠︎︎ ${prefix}greatcheck
+│⊳☠︎︎ ${prefix}awesomecheck
 └──────────⊰
 
-┌──⊰ _*⛩️OTHERS⛩️*_
-│⊳ 🏮 ${prefix}sticker
-│⊳ 🏮 ${prefix}qc
-│⊳ 🏮 ${prefix}smeme
-│⊳ 🏮 ${prefix}take
-│⊳ 🏮 ${prefix}toimage
-│⊳ 🏮 ${prefix}tovideo
-│⊳ 🏮 ${prefix}toaudio
-│⊳ 🏮 ${prefix}tomp3
-│⊳ 🏮 ${prefix}tovn
-│⊳ 🏮 ${prefix}togif
-│⊳ 🏮 ${prefix}tourl
-│⊳ 🏮 ${prefix}toqr
-│⊳ 🏮 ${prefix}toviewonce
-│⊳ 🏮 ${prefix}fliptext
-│⊳ 🏮 ${prefix}emojimix
-│⊳ 🏮 ${prefix}play
-│⊳ 🏮 ${prefix}ytmp3
-│⊳ 🏮 ${prefix}ytmp4
-│⊳ 🏮 ${prefix}circlevideo
-│⊳ 🏮 ${prefix}google
-│⊳ 🏮 ${prefix}gpt
+┌──⊰ _*➼OTHERS➼*_
+│⊳ ➼ ${prefix}sticker
+│⊳ ➼ ${prefix}qc
+│⊳ ➼ ${prefix}smeme
+│⊳ ➼ ${prefix}take
+│⊳ ➼ ${prefix}toimage
+│⊳ ➼ ${prefix}tovideo
+│⊳ ➼ ${prefix}toaudio
+│⊳ ➼ ${prefix}tomp3
+│⊳ ➼ ${prefix}tovn
+│⊳ ➼ ${prefix}togif
+│⊳ ➼ ${prefix}tourl
+│⊳ ➼ ${prefix}toqr
+│⊳ ➼ ${prefix}toviewonce
+│⊳ ➼ ${prefix}fliptext
+│⊳ ➼ ${prefix}emojimix
+│⊳ ➼ ${prefix}play
+│⊳ ➼ ${prefix}ytmp3
+│⊳ ➼ ${prefix}ytmp4
+│⊳ ➼ ${prefix}circlevideo
+│⊳ ➼ ${prefix}google
+│⊳ ➼ ${prefix}gpt
 └──────────⊰`
 const Mariaarray= [
             "https://telegra.ph/file/a979e37a8d2971c088ff4.jpg",
@@ -1689,7 +1689,7 @@ break
                 
 case 'runtime': {
       
-            	let lowq = `*The Bot Has Been Online For:*\n*${runtime(process.uptime())}*`
+            	let lowq = `*𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞 Has Been Online For:*\n*${runtime(process.uptime())}*`
                 reply(lowq)
             	}
             break

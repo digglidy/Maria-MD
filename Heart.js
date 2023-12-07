@@ -22,7 +22,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
-global.ownernumber = '919931122319' 
+global.ownernumber = '254776436960' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'))
 let _owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
@@ -180,7 +180,7 @@ await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, future leaders! 🌟 Maria-Md is here to inspire and lead, thanks to Ayush Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`Hey, future leaders! 🌟 𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞-Md is here to inspire and lead, thanks to Ayush Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
